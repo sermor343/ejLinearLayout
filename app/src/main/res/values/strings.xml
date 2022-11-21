@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ejercicio Linear Layout</string>
+    <array name="spinner">"peter","juan"</array>
+</resources>

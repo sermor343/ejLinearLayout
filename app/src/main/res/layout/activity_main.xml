@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60sp"
+        android:layout_marginBottom="80sp"
+        android:text="Conectar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginBottom="10sp"
+        android:backgroundTint="@android:color/black"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textColor="@color/ddgrey"
+        android:textColorHint="@color/ddgrey" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="@android:color/black"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="50sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/ddgrey"
+        android:textColorHint="@color/ddgrey"
+        android:hint="Contraseña" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/dgrey"
+        android:text="INICIAR SESION"
+
+        android:textColor="@color/black"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="20sp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:id="@+id/textView2"
+        android:textColor="#0079CA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?" />
+
+
+</LinearLayout>
